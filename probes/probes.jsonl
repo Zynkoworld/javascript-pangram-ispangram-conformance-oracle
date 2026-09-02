@@ -1,0 +1,10 @@
+{"input": "", "expect": false, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "abcdefghijklmnopqrstuvwxyz", "expect": true, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "the quick brown fox jumps over the lazy dog", "expect": true, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "a quick movement of the enemy will jeopardize five gunboats", "expect": false, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "five boxing wizards jump quickly at it", "expect": false, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "the_quick_brown_fox_jumps_over_the_lazy_dog", "expect": true, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "the 1 quick brown fox jumps over the 2 lazy dogs", "expect": true, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog", "expect": false, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "\"Five quacking Zephyrs jolt my wax bed.\"", "expect": true, "raised": false, "task": "pangram", "lang": "javascript"}
+{"input": "abcdefghijklm ABCDEFGHIJKLM", "expect": false, "raised": false, "task": "pangram", "lang": "javascript"}
